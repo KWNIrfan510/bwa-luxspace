@@ -1,0 +1,14 @@
+{
+  "name": "bwa-luxspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Irfan858",
+  "license": "MIT",
+  "scripts": {
+    "build" : "yarn tailwindcss -i ./main.css -o ./dist/style/style.css",
+    "watch" : "yarn tailwindcss -i ./main.css -o ./dist/style/style.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
