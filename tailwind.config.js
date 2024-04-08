@@ -2,7 +2,25 @@
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        88: "22rem",
+      },
+      opacity: {
+        35: "0.35",
+      },
+      colors : {
+        pink: {
+          400: "#F9CADA",
+        },
+        blue: {
+          200: "#BCE7F0"
+        }
+      },
+    },
+    fontFamily: {
+      'sans': ['Open Sans', 'sans-serif']
+    },
   },
   plugins: [],
 }
